@@ -3,5 +3,6 @@
 
 int main (void)
 {
-    int x
+    int x = get_int("what's x?");
+    int y = get_
 }
