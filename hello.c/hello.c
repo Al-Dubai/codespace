@@ -2,6 +2,11 @@
 #include <stdio.h>
 int main(void)
 {
-     string answer = get_string("What's your name? ");
-     printf("hello, %s\n", answer);
+     int x = get_int("what's x? ");
+     int y = get_int("what's y?");
+
+     if (x < y)
+     {
+          printf("x is less than y\n");
+     }
 }
