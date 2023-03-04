@@ -8,4 +8,12 @@ int main(void)
 
     // check wether agree
     if (C == 'Y' || c == 'y')
+    {
+        printf ("Agree.\n");
+
+    }
+    else if (C == 'N' || c == 'n')
+    {
+        printf("Not agree.\n");
+    }
 }
